@@ -1,0 +1,19 @@
+{
+	"name": "css-skill",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "0.21.1",
+		"vue": "2.6.12",
+		"vue-router": "3.5.1",
+		"vuex": "3.6.2"
+	},
+	"devDependencies": {},
+	"engines": {
+		"node": ">= 12.0.0",
+		"npm": ">= 6.9.0"
+	}
+}
