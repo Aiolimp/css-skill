@@ -13,6 +13,11 @@
       <figure3></figure3>
       <figure4></figure4>
     </div>
+
+	   <div class="content color">
+      <color1></color1>
+    
+    </div>
   </div>
 
 </template>
@@ -200,6 +205,9 @@ import Figure2 from "./components/figure/使用box-shadow裁剪聚焦区域";
 import Figure3 from "./components/figure/各种图形";
 import Figure4 from "./components/figure/使用box-shadow描绘单侧投影";
 
+import color1 from "./components/color/使用linear-gradient()控制渐变背景";
+
+
 export default {
   name: "app",
   components: {
@@ -207,7 +215,11 @@ export default {
     Figure1,
     Figure2,
 	Figure3,
-	Figure4
+	Figure4,
+
+
+	//颜色
+	color1,
   },
   data() {
     return {
